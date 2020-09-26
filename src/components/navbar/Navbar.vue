@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-light fixed-top">
     <a class="navbar-brand" href="#">
-      <img class="adi-logo" src="/logo.png" />
+      <img class="adi-logo" src="../../assets/logo.png" />
       <span class="mr-4 d-md-inline d-none d-md-inline"
         >עדי זהיר - אימוני כושר אישיים וקבוצתיים</span
       >

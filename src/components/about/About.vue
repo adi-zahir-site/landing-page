@@ -31,7 +31,7 @@
         </div>
       </div>
       <div class="col-md-6 d-flex justify-content-center">
-        <img class="about-image" src="/about.jpg" />
+        <img class="about-image" src="../../assets/about.jpg" />
       </div>
     </div>
   </div>
