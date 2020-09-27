@@ -45,12 +45,54 @@ body::before {
     to   { opacity: 1; }
 }
 
+/* fade in right */
+
+@keyframes fadeinright {
+    from { opacity: 0; transform: translateX(20px) translateY(20px); }
+    to { opacity: 1; transform: translateX(0) translateY(0); }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadeinright {
+    from { opacity: 0; transform: translateX(20px) translateY(20px); }
+    to { opacity: 1; transform: translateX(0) translateY(0); }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadeinright {
+    from { opacity: 0; transform: translateX(20px) translateY(20px); }
+    to { opacity: 1; transform: translateX(0) translateY(0); }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadeinright {
+    from { opacity: 0; transform: translateX(20px) translateY(20px); }
+    to { opacity: 1; transform: translateX(0) translateY(0); }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadeinright {
+    from { opacity: 0; transform: translateX(20px) translateY(20px); }
+    to { opacity: 1; transform: translateX(0) translateY(0); }
+}
+
 .fade-in {
-    -webkit-animation: fadein 0.7s; /* Safari, Chrome and Opera > 12.1 */
-    -moz-animation: fadein 0.7s; /* Firefox < 16 */
-    -ms-animation: fadein 0.7s; /* Internet Explorer */
-    -o-animation: fadein 0.7s; /* Opera < 12.1 */
-    animation: fadein 0.7s;
+    -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 1s; /* Firefox < 16 */
+    -ms-animation: fadein 1s; /* Internet Explorer */
+    -o-animation: fadein 1s; /* Opera < 12.1 */
+    animation: fadein 1s;
+}
+
+.fade-in-right {
+    -webkit-animation: fadeinright 1s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadeinright 1s; /* Firefox < 16 */
+    -ms-animation: fadeinright 1s; /* Internet Explorer */
+    -o-animation: fadeinright 1s; /* Opera < 12.1 */
+    animation: fadeinright 1s;
+    opacity: 0;
+    animation-delay: 0.3s;
+    animation-fill-mode: forwards; 
 }
 
 

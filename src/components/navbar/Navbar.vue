@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-light fixed-top">
     <a class="navbar-brand">
-      <a v-on:click="handleClick('about')"><img class="adi-logo float-right" alt="AZ logo" src="../../assets/logo.png" /></a>
+      <a v-on:click="handleClick('about')"><img class="adi-logo float-right fade-in-right" alt="AZ logo" src="../../assets/logo.png" /></a>
       <div class="d-inline mr-4 float-right">
         <div>עדי זהיר</div>
         <div class="font-sm">אימוני כושר אישיים וקבוצתיים</div>
