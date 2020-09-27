@@ -108,7 +108,7 @@ export default {
   position: absolute;
   left: 0;
   top: 0;
-  width: 100%;
+  width: 120%;
   opacity: 0.2;
 }
 </style>

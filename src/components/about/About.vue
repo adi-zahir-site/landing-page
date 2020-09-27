@@ -2,7 +2,7 @@
   <div class="position-relative">
     <div id="about" class="about jumbotron">
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-lg-6">
           <div>
             <p class="about-text fade-in">
               נעים להכיר! אני עדי, בת 25, בעלת סטודיו בוטיק לאימוני כוח לקבוצות
@@ -24,14 +24,14 @@
               עכשיו תורכם להחליט שאתם רוצים להתחיל תהליך למידה ובכירות עם הגוף
               שלכם, בו נעבוד יחד כדי שתיהיו הגרסה הכי טובה של עצמכם.<br />
               יאללה, מחכה לכם!<br />
-              <a class="contact-link" v-on:click="handleSendClick()"
+              <a class="contact-link unselectable" v-on:click="handleSendClick()"
                 >שלחו לי הודעה</a
               >
               ונתחיל להתאמן 💪🏻💪🏻💪🏻
             </p>
           </div>
         </div>
-        <div class="col-md-6">
+        <div class="col-lg-6">
             <img class="about-image mt-12" src="../../assets/about.jpg" />
         </div>
       </div>
