@@ -67,10 +67,10 @@
         <h4>מתאמנים ממליצים</h4>
         <div class="row">
           <div class="col-md-6">
-            <img class="rec mt-12" src="../../assets/rec1.jpg" />
+            <img class="rec mt-12" alt="ההמלצה של עדי" src="../../assets/rec1.jpg" />
           </div>
           <div class="col-md-6">
-            <img class="rec mt-12" src="../../assets/rec2.jpg" />
+            <img class="rec mt-12" alt="ההמלצה של אופיר" src="../../assets/rec2.jpg" />
           </div>
         </div>
       </div>

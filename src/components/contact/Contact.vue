@@ -1,6 +1,6 @@
 <template>
   <div id="contact" class="jumbotron">
-    <img class="studio-img" src="../../assets/studio.jpg" />
+    <img class="studio-img" alt="סטודיו" src="../../assets/studio.jpg" />
 
     <div class="content">
       <div class="row">

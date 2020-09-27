@@ -32,7 +32,7 @@
           </div>
         </div>
         <div class="col-lg-6">
-            <img class="about-image mt-12" src="../../assets/about.jpg" />
+            <img alt="עדי זהיר" class="about-image mt-12" src="../../assets/about.jpg" />
         </div>
       </div>
     </div>
