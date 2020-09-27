@@ -31,8 +31,8 @@
             </p>
           </div>
         </div>
-        <div class="col-md-6 d-flex justify-content-center">
-          <img class="about-image" src="../../assets/about.jpg" />
+        <div class="col-md-6">
+            <img class="about-image mt-12" src="../../assets/about.jpg" />
         </div>
       </div>
     </div>
@@ -54,7 +54,6 @@ export default {
 
 .about {
   direction: rtl;
-  text-align: justify;
 }
 
 .about::before {
@@ -72,12 +71,15 @@ export default {
 .about-text {
   font-size: 15px;
   line-height: 2;
+  text-align: justify;
 }
 
 .about-image {
   width: 400px;
   border: 5px solid rgba(255, 255, 255, 0.2);
   border-radius: 20px;
+  float: right;
+  margin-right: calc(50% - 200px);
 }
 
 .contact-link {
