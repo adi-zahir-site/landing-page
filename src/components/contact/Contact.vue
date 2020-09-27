@@ -14,17 +14,17 @@
           <div id="contact-details" class="row d-flex justify-content-center">
             <div class="col-md-11">
               <div>
-                <i class="fa fa-phone"></i>
+                <i class="fa fa-phone ml-2"></i>
                 טלפון: <a href="tel:0522981168">052-2981168</a>
               </div>
               <div>
-                <i class="fa fa-map-marker"></i>
-                כתובת: בן גוריון 199, רמת גן
-              </div>
-              <div class="float-right">
-                <i class="fa fa-envelope"></i>
+                <i class="fa fa-envelope ml-2"></i>
                 אימייל:
                 <a href="mailto:adizahir4@gmail.com">adizahir4@gmail.com</a>
+              </div>
+              <div>
+                <i class="fa fa-map-marker ml-2"></i>
+                כתובת: בן גוריון 199, רמת גן
               </div>
             </div>
           </div>
@@ -68,9 +68,9 @@ export default {
   direction: rtl;
   text-align: justify;
   position: relative;
-  background: #ffc400;
   overflow: hidden;
   margin-bottom: 0;
+  background-color: #FFC400;
 }
 
 .content {
@@ -108,7 +108,7 @@ export default {
   position: absolute;
   left: 0;
   top: 0;
-  width: 120%;
-  opacity: 0.2;
+  width: 140%;
+  opacity: 0.15;
 }
 </style>
