@@ -24,7 +24,7 @@
               <div class="float-right">
                 <i class="fa fa-envelope"></i>
                 אימייל:
-                <a href="mailto:adi.zahir@gmail.com">adi.zahir@gmail.com</a>
+                <a href="mailto:adizahir4@gmail.com">adizahir4@gmail.com</a>
               </div>
             </div>
           </div>
